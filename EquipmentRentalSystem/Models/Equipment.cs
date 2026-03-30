@@ -21,6 +21,6 @@ public class Projector : Equipment {
 
 public class Camera : Equipment {
     public string SensorType { get; set; }
-    public bool 4KSupport { get; set; }
+    public bool Support4K { get; set; }
     public override string GetInfo() => $"Camera {Name} (Sensor: {SensorType})";
 }

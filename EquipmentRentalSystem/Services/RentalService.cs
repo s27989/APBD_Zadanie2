@@ -1,4 +1,5 @@
-﻿namespace EquipmentRentalSystem.Services;
+﻿using EquipmentRentalSystem.Models;
+namespace EquipmentRentalSystem.Services;
 
 public class RentalService {
     private List<Equipment> _inventory = new();
